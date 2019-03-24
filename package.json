@@ -1,24 +1,25 @@
 {
-    "name": "friend-finder",
-    "version": "1.0.0",
-    "description": "Homework",
-    "main": "server.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node server.js"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/BenzGitHub/friend-finder"
-    },
-    "author": "Ben",
-    "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/BenzGitHub/friend-finder"
-    },
-    "homepage": "https://github.com/BenzGitHub/friend-finder/blob/master/README.md",
-    "dependencies": {
-      "body-parser": "^1.17.1",
-      "express": "^4.15.2"
-    }
+  "name": "friend-finder",
+  "version": "1.0.0",
+  "description": "Homework",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenzGitHub/friend-finder"
+  },
+  "author": "Ben",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenzGitHub/friend-finder"
+  },
+  "homepage": "https://github.com/BenzGitHub/friend-finder/blob/master/README.md",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "path": "^0.12.7"
   }
+}
