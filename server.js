@@ -16,11 +16,6 @@ app.use(bodyParser.json({ type: "application/vnd.api+json"}));
 
 require("./routing/apiRoutes.js")(app);
 require("./routing/htmlRoutes.js")(app);
-// Trying to get survey and CSS to load
-// require("./public/home.html");
-// require("./public/survey.html");
-// require("./app/css/style.css");
-// End test
 
 app.listen(PORT, function() {
     console.log("App is listening on PORT: " + PORT);
